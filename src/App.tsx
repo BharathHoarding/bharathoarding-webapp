@@ -35,11 +35,12 @@ function App() {
               <nav className="relative flex items-center justify-between sm:h-10 lg:justify-start" aria-label="Global">
                 <div className="flex items-center flex-grow flex-shrink-0 lg:flex-grow-0">
                   <div className="flex items-center justify-between w-full md:w-auto">
-                    <a href="#">
+                    <a href="#bottom">
                       <span className="sr-only">Workflow</span>
                       <img
                         className="h-8 w-auto sm:h-10"
                         src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+                        alt="details"
                       />
                     </a>
                     <div className="-mr-2 flex items-center md:hidden">
@@ -56,9 +57,12 @@ function App() {
                       {item.name}
                     </a>
                   ))}
-                  <a href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                  <a href="#top" className="font-medium text-indigo-600 hover:text-indigo-500">
                     Log in
-                  </a>
+                  </a> 
+                  {/* <button href="#" className="font-medium text-indigo-600 hover:text-indigo-500">
+                    Log in
+                  </button> */}
                 </div>
               </nav>
             </div>
@@ -104,7 +108,7 @@ function App() {
                     ))}
                   </div>
                   <a
-                    href="#"
+                    href="#mid"
                     className="block w-full px-5 py-3 text-center font-medium text-indigo-600 bg-gray-50 hover:bg-gray-100"
                   >
                     Log in
@@ -126,7 +130,7 @@ function App() {
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
                   <a
-                    href="#"
+                    href="#mid1"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
                   >
                     Get started
@@ -134,7 +138,7 @@ function App() {
                 </div>
                 <div className="mt-3 sm:mt-0 sm:ml-3">
                   <a
-                    href="#"
+                    href="#mid2"
                     className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200 md:py-4 md:text-lg md:px-10"
                   >
                     Live demo
